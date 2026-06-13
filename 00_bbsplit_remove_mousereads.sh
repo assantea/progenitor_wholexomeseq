@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH -J bbsplit
-#SBATCH --partition amilan
 #SBATCH -o log/bbsplit_%j.out  # Output file with the job ID
 #SBATCH -e log/bbsplit_%j.err  # Error file with the job ID
 #SBATCH -t 8:00:00   # Set the wall time: D-HH:MM:SS
@@ -14,12 +13,12 @@ set -euo pipefail
 
 module load bbtools
 
-# Absolute paths to reference FASTAs
-HUMAN_REF=/projects/aassante@xsede.org/references/igenomes/Homo_sapiens/GATK/GRCh38/Sequence/WholeGenomeFasta/Homo_sapiens_assembly38.fasta
-MOUSE_REF=/projects/aassante@xsede.org/references/igenomes/Mus_musculus/Ensembl/GRCm38/Sequence/WholeGenomeFasta/genome.fa
+# Paths to human and mouse igenomes reference files
+HUMAN_REF=/path/to/igenomes/Homo_sapiens/GATK/GRCh38/Sequence/WholeGenomeFasta/Homo_sapiens_assembly38.fasta
+MOUSE_REF=/path/to/igenomes/Mus_musculus/Ensembl/GRCm38/Sequence/WholeGenomeFasta/genome.fa
 
 # Loop through all Read 1 files
-for r1 in *_L002_R1_001.fastq.gz; do
+for r1 in *_R1_001.fastq.gz; do
     # Define Read 2
     r2="${r1/_L002_R1_001.fastq.gz/_L002_R2_001.fastq.gz}"
     # Base output name
