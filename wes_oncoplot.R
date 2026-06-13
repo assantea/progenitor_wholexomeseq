@@ -1,11 +1,14 @@
 # oncoplot
-# alexis assante
-# whole exome seq data 
+# whole exome seq analysis 
 
 library(data.table)
 library(maftools)
 
 # -------- READ MUTATION TABLE --------
+
+# Tab-delimited table of annotated somatic coding variants identified from whole-exome sequencing samples. 
+# Each row represents a single variant and includes sample ID, gene symbol, functional consequence annotation, genomic coordinates, reference/alternate alleles, and variant type. 
+# This table served as the input for mutation frequency analyses and oncoplot generation.
 
 mut <- fread("oncoplot_mutations_all_raw.tsv")
 
@@ -13,7 +16,7 @@ mut <- fread("oncoplot_mutations_all_raw.tsv")
 
 clinical <- data.frame(
   Tumor_Sample_Barcode = unname(rename_map),
-  
+
   Self_Renewal = c(
     "LowSR", "LowSR", "LowSR", "LowSR", "LowSR", "LowSR",
     "HighSR", "HighSR", "HighSR", "HighSR"
