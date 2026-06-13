@@ -5,10 +5,10 @@
 #SBATCH -e log/sarek_%j.err  # Error file with the job ID
 #SBATCH -t 06:00:00   # Set the wall time: D-HH:MM:SS
 #SBATCH --qos=normal
-#SBATCH -n 1 -c 2  # ask for number of nodes/cores
+#SBATCH -n 1 -c 2  # Ask for number of nodes/cores
 #SBATCH --mem=8GB  # Specify memory allocation
 
-set -eu  # die on error or undefined variable
+set -eu  
 
 # make software accessible:
 module load nextflow/25.10.2
@@ -19,8 +19,7 @@ printf -- "$sep\n%s\n%s\n$sep\n%s\n%s\n$sep\n\n" \
         "$(which singularity)" "$(singularity --version)"
 
 
-## this overrides the settings in the Nextflow module to keep your stuff
-## organized by project:
+## Override the settings in the Nextflow module to organize by project:
 export NXF_WORK="/path/to/nf_core_dir/work"
 export NXF_TEMP="/path/to/nf_core_dir/tmp"
 export NXF_HOME="/path/to/nf_core_dir/nextflow"
@@ -29,7 +28,7 @@ export NXF_HOME="/path/to/nf_core_dir/nextflow"
 samplefile="/path/to/SR_samples_381_humanreadsonly.csv"
 pipeoutdir="/path/to/sarekRUN_humanreadsonly"
 
-## nextflow puts everything in $PWD, so make an output dir and go there:
+## Create output dir for nextflow
 mkdir -p "$pipeoutdir"
 cd "$pipeoutdir"
 
@@ -49,7 +48,7 @@ nextflow run "$sarek381" -profile curc_alpine -ansi-log false \
 	--fasta "/path/to/igenomes/Homo_sapiens/GATK/GRCh38/Sequence/WholeGenomeFasta/Homo_sapiens_assembly38.fasta" \
 	--step variant_calling \
 	--tools cnvkit,mutect2,snpeff \
-        --outdir "$pipeoutdir" \
+    --outdir "$pipeoutdir" \
 	--intervals "/path/to/ptargets.bed" \
 	-resume
 
