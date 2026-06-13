@@ -24,7 +24,7 @@ export NXF_TEMP="/path/to/nf_core_dir/tmp"
 export NXF_HOME="/path/to/nf_core_dir/nextflow"
 
 ## Sample file
-samplefile="/path/to/samplefilelist.csv"
+samplefile="/path/to/02_samplefilelist.csv"
 
 ## Create output dir for nextflow
 mkdir -p "$pipeoutdir"
