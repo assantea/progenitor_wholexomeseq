@@ -1,4 +1,4 @@
-patient,sample,status,lane,fastq_1,fastq_2
+patient,sample,status,lane,fastq_1,fastq_2 ## Status is set to 1 for all samples since running tumor only mode (no matched normals)
 p01,patient1_site1_LowSR,1,lane_2,/path/to/p01_patient1_site1_LowSR_human_R1.fastq.gz,/path/to/p01_patient1_site1_LowSR_human_R2.fastq.gz
 p02,patient2_site1_LowSR,1,lane_2,/path/to/p02_patient2_site1_LowSR_human_R1.fastq.gz,/path/to/p02_patient2_site1_LowSR_human_R2.fastq.gz
 p03,patient3_site1_LowSR,1,lane_2,/path/to/p03_patient3_site1_LowSR_human_R1.fastq.gz,/path/to/p03_patient3_site1_LowSR_human_R2.fastq.gz
@@ -9,4 +9,4 @@ p07,patient7_site1_HighSR,1,lane_2,/path/to/p07_patient7_site1_HighSR_human_R1.f
 p08,patient8_site1_HighSR,1,lane_2,/path/to/p08_patient8_site1_HighSR_human_R1.fastq.gz,/path/to/p08_patient8_site1_HighSR_human_R2.fastq.gz
 p09,patient9_site1_HighSR,1,lane_2,/path/to/p09_patient9_site1_HighSR_human_R1.fastq.gz,/path/to/p09_patient9_site1_HighSR_human_R2.fastq.gz
 p09,patient9_site2_HighSR,1,lane_2,/path/to/p09_patient9_site2_HighSR_human_R1.fastq.gz,/path/to/p09_patient9_site2_HighSR_human_R2.fastq.gz
-#status is set to 1 for all samples since running tumor only mode (no matched normals)
+
