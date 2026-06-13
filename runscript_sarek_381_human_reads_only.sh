@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH -J sarek
-#SBATCH --partition amilan
 #SBATCH -o log/sarek_%j.out  # Output file with the job ID
 #SBATCH -e log/sarek_%j.err  # Error file with the job ID
 #SBATCH -t 06:00:00   # Set the wall time: D-HH:MM:SS
@@ -10,7 +9,7 @@
 
 set -eu  
 
-# make software accessible:
+# Make software accessible:
 module load nextflow/25.10.2
 module load singularity/3.7.4
 sep=----------------------------------------
@@ -24,9 +23,8 @@ export NXF_WORK="/path/to/nf_core_dir/work"
 export NXF_TEMP="/path/to/nf_core_dir/tmp"
 export NXF_HOME="/path/to/nf_core_dir/nextflow"
 
-## Sample file:
-samplefile="/path/to/SR_samples_381_humanreadsonly.csv"
-pipeoutdir="/path/to/sarekRUN_humanreadsonly"
+## Sample file
+samplefile="/path/to/samplefilelist.csv"
 
 ## Create output dir for nextflow
 mkdir -p "$pipeoutdir"
@@ -34,13 +32,13 @@ cd "$pipeoutdir"
 
 ptargetsbed="/path/to/probes_targetregions/S33699751_Padded.bed"
 
-## make temporary headerless 3-column copy of BED file to play nice with tools:
+## Make temporary headerless 3-column copy of BED file to play nice with tools:
 ln1=$(grep -nPm1 '^chr' "$ptargetsbed" | cut -d : -f 1)
 tail -n +"${ln1-1}" "$ptargetsbed" | cut -f 1-3 >"/path/to/ptargets.bed"
 
 sarek381="/path/to/nf-core/nf-core-sarek-3.8.1/3_8_1"
 
-nextflow run "$sarek381" -profile curc_alpine -ansi-log false \
+nextflow run "$sarek381" -profile <institute_name_w_preconfig_settings> -ansi-log false \
 	--wes \
 	--input "$samplefile" \
 	--genome GATK.GRCh38 \
