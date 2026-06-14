@@ -26,6 +26,3 @@ QC/
 code/
 
 
-02_vaf_analysis.R
-03_maf_generation.R
-...
