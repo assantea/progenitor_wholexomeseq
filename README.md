@@ -5,13 +5,14 @@
 This repository contains code and quality control summaries used
 for whole exome sequencing analyses of bronchial dysplasia samples.
 
-Analyses include:
+All computational analyses were conducted on the Alpine high-performance computing cluster at the University of Colorado Boulder, leveraging distributed compute resources for scalable processing.
 
-- Pre-processing and variant calling
+Analyses include:
 - Variant filtering
-- Mutation burden
 - VAF analysis
+- Mutation burden
 - Oncoplot generation
+
 
 ## Software
 
@@ -19,6 +20,7 @@ nf-core/sarek v3.8.1
 
 Reference genome:
 GRCh38
+
 
 ## Repository structure
 
