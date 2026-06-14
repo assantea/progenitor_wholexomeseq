@@ -7,10 +7,10 @@ for whole exome sequencing analyses of bronchial dysplasia samples.
 
 Analyses include:
 
+- Pre-processing and variant calling
 - Variant filtering
-- VAF analysis
 - Mutation burden
-- CNV analysis
+- VAF analysis
 - Oncoplot generation
 
 ## Software
