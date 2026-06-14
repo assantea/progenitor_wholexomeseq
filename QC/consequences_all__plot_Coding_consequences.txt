@@ -1,0 +1,11 @@
+Sample	stop_gained	frameshift_variant	stop_lost	start_lost	inframe_insertion	inframe_deletion	missense_variant	protein_altering_variant	incomplete_terminal_codon_variant	start_retained_variant	stop_retained_variant	synonymous_variant	coding_sequence_variant
+108159_LUL_LowSR.mutect2.filtered_VEP.ann	1024.0	28510.0	123.0	50.0	2866.0	3816.0	170380.0	681.0	2.0	12.0	366.0	634484.0	229.0
+217788_LB89_LowSR.mutect2.filtered_VEP.ann	899.0	24370.0	113.0	44.0	2499.0	3263.0	154854.0	582.0	1.0	9.0	337.0	591260.0	173.0
+220514_LUL_HighSR.mutect2.filtered_VEP.ann	544.0	10156.0	62.0	27.0	1122.0	1399.0	82357.0	240.0	2.0	7.0	185.0	345615.0	92.0
+220578_LUL_LowSR.mutect2.filtered_VEP.ann	644.0	16500.0	78.0	38.0	1776.0	2306.0	116440.0	344.0	1.0	11.0	230.0	471298.0	135.0
+220597_MCC_LowSR.mutect2.filtered_VEP.ann	416.0	9212.0	49.0	28.0	1113.0	1384.0	73809.0	225.0	1.0	12.0	164.0	317896.0	86.0
+220713_RB6_LowSR.mutect2.filtered_VEP.ann	668.0	14993.0	85.0	29.0	1592.0	2008.0	109414.0	313.0	2.0	8.0	248.0	445183.0	135.0
+220742_LUL_HighSR.mutect2.filtered_VEP.ann	753.0	15455.0	85.0	24.0	1579.0	2053.0	111854.0	366.0	1.0	6.0	257.0	451347.0	126.0
+220754_RB6_LowSR.mutect2.filtered_VEP.ann	851.0	24248.0	105.0	46.0	2583.0	3333.0	153015.0	566.0	1.0	14.0	316.0	588063.0	173.0
+220884_LB6_HighSR.mutect2.filtered_VEP.ann	835.0	22662.0	109.0	40.0	2407.0	3128.0	145976.0	524.0	2.0	12.0	319.0	565072.0	161.0
+220884_LUL_HighSR.mutect2.filtered_VEP.ann	249.0	4845.0	43.0	7.0	675.0	861.0	44561.0	118.0	1.0	2.0	98.0	197901.0	51.0

@@ -1,0 +1,11 @@
+Sample	-1.0
+108159_LUL_LowSR.mutect2.filtered.TsTv.qual	0.0
+217788_LB89_LowSR.mutect2.filtered.TsTv.qual	3.64276e-317
+220514_LUL_HighSR.mutect2.filtered.TsTv.qual	0.0
+220578_LUL_LowSR.mutect2.filtered.TsTv.qual	0.0
+220597_MCC_LowSR.mutect2.filtered.TsTv.qual	0.0
+220713_RB6_LowSR.mutect2.filtered.TsTv.qual	nan
+220742_LUL_HighSR.mutect2.filtered.TsTv.qual	4.24576e-63
+220754_RB6_LowSR.mutect2.filtered.TsTv.qual	nan
+220884_LB6_HighSR.mutect2.filtered.TsTv.qual	nan
+220884_LUL_HighSR.mutect2.filtered.TsTv.qual	0.0

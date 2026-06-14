@@ -1,0 +1,17 @@
+Sample	bcftools	gatk4	gawk	ensemblvep	perl-math-cdf	tabix	mosdepth	samtools	snpeff	vcftools	nf-core/sarek	Nextflow
+BCFTOOLS_STATS	1.21											
+CALCULATECONTAMINATION		4.6.1.0										
+CREATE_INTERVALS_BED			5.3.0									
+ENSEMBLVEP_VEP				115.2	0.1	1.21						
+FILTERMUTECTCALLS		4.6.1.0										
+GETPILEUPSUMMARIES		4.6.1.0										
+LEARNREADORIENTATIONMODEL		4.6.1.0										
+MUTECT2		4.6.1.0										
+Mosdepth							0.3.10					
+SAMTOOLS_STATS								1.21				
+SNPEFF_SNPEFF									5.3a			
+TABIX_BGZIPTABIX						1.21						
+TABIX_BGZIPTABIX_INTERVAL_COMBINED						1.21						
+TABIX_BGZIPTABIX_INTERVAL_SPLIT						1.21						
+VCFTOOLS_TSTV_COUNT										0.1.16		
+Workflow											v3.8.1	25.10.2

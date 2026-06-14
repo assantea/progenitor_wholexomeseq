@@ -1,0 +1,11 @@
+Sample	0	1
+108159_LUL_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.05923)
+217788_LB89_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.08443)
+220514_LUL_HighSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.20746)
+220578_LUL_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.1334)
+220597_MCC_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.1703)
+220713_RB6_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.16807)
+220742_LUL_HighSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.17833)
+220754_RB6_LowSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.08148)
+220884_LB6_HighSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.08977)
+220884_LUL_HighSR.mutect2.filtered.TsTv.count	(0.0, None)	(1.0, 2.21393)

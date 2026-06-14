@@ -1,0 +1,8 @@
+10.1093/bioinformatics/btw354                      # MultiQC
+10.1093/bioinformatics/btp352                      # samtools
+10.1093/bioinformatics/btx699                      # mosdepth
+10.1093/gigascience/giab008                        # bcftools
+10.1093/bioinformatics/btr330                      # vcftools
+10.4161/fly.19695                                  # snpeff
+10.1186/s13059-016-0974-4                          # vep
+

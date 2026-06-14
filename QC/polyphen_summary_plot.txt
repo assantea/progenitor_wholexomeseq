@@ -1,0 +1,11 @@
+Sample	Benign	Possibly damaging	Probably damaging	Unknown
+108159_LUL_LowSR.mutect2.filtered_VEP.ann	123865.0	4956.0	4410.0	4797.0
+217788_LB89_LowSR.mutect2.filtered_VEP.ann	112567.0	4494.0	4032.0	4365.0
+220514_LUL_HighSR.mutect2.filtered_VEP.ann	59376.0	2670.0	2603.0	2409.0
+220578_LUL_LowSR.mutect2.filtered_VEP.ann	84230.0	3455.0	3123.0	3679.0
+220597_MCC_LowSR.mutect2.filtered_VEP.ann	53070.0	2394.0	2143.0	2584.0
+220713_RB6_LowSR.mutect2.filtered_VEP.ann	79033.0	3329.0	3192.0	3155.0
+220742_LUL_HighSR.mutect2.filtered_VEP.ann	81164.0	3363.0	3244.0	2845.0
+220754_RB6_LowSR.mutect2.filtered_VEP.ann	111381.0	4518.0	4013.0	4260.0
+220884_LB6_HighSR.mutect2.filtered_VEP.ann	105842.0	4237.0	3849.0	4343.0
+220884_LUL_HighSR.mutect2.filtered_VEP.ann	31598.0	1552.0	1449.0	1738.0

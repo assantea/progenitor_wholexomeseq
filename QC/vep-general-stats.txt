@@ -1,0 +1,11 @@
+Sample	Overlapped regulatory features	Overlapped transcripts	Overlapped genes	Existing variants	Novel variants	Variants filtered out	Variants processed	Lines of input read
+108159_LUL_LowSR.mutect2.filtered_VEP.ann	5494	33610	31013	1143098	0	0	1143098	1143098
+217788_LB89_LowSR.mutect2.filtered_VEP.ann	5005	33042	30536	1046248	0	0	1046248	1046248
+220514_LUL_HighSR.mutect2.filtered_VEP.ann	2872	29278	27382	581614	0	0	581614	581614
+220578_LUL_LowSR.mutect2.filtered_VEP.ann	4314	31524	29276	806970	0	0	806970	806970
+220597_MCC_LowSR.mutect2.filtered_VEP.ann	3402	28992	27110	526322	0	0	526322	526322
+220713_RB6_LowSR.mutect2.filtered_VEP.ann	3496	30712	28601	761931	0	0	761931	761931
+220742_LUL_HighSR.mutect2.filtered_VEP.ann	3277	30589	28418	773819	0	0	773819	773819
+220754_RB6_LowSR.mutect2.filtered_VEP.ann	5076	33059	30539	1037949	0	0	1037949	1037949
+220884_LB6_HighSR.mutect2.filtered_VEP.ann	5017	32920	30422	990649	0	0	990649	990649
+220884_LUL_HighSR.mutect2.filtered_VEP.ann	2601	26071	24636	330396	0	0	330396	330396

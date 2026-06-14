@@ -1,0 +1,31 @@
+Sample	samtools_flagstat_stats-error_rate	samtools_flagstat_stats-non_primary_alignments	samtools_flagstat_stats-reads_mapped	samtools_flagstat_stats-reads_mapped_percent	samtools_flagstat_stats-reads_properly_paired_percent	samtools_flagstat_stats-reads_MQ0_percent	samtools_flagstat_stats-raw_total_sequences	samtools_flagstat_stats-insert_size_average	mosdepth-1_x_pc	mosdepth-5_x_pc	mosdepth-10_x_pc	mosdepth-30_x_pc	mosdepth-50_x_pc	mosdepth-median_coverage	bcftools_stats-number_of_records	bcftools_stats-number_of_SNPs	bcftools_stats-number_of_indels	bcftools_stats-tstv	bcftools_stats-number_of_MNPs	bcftools_stats-number_of_multiallelic_sites	bcftools_stats-number_of_multiallelic_SNP_sites	snpeff-Change_rate	snpeff-Ts_Tv_ratio	snpeff-Number_of_variants_before_filter
+108159_LUL_LowSR.mutect2.filtered															1143098	911336	153282	2.05	80278	4586	1586			
+108159_LUL_LowSR.mutect2.filtered_snpEff																						2689.0	2.059226	1.148111
+108159_LUL_LowSR.recal	1.034872	0.0	68.317067	99.68207610726415	98.44205926097041	3.431435777094539	68.534956	178.9	98.0	96.0	93.0	66.0	38.0	41										
+217788_LB89_LowSR.mutect2.filtered															1046248	841713	133528	2.07	72561	3966	1250			
+217788_LB89_LowSR.mutect2.filtered_snpEff																						2939.0	2.084431	1.050632
+217788_LB89_LowSR.recal	0.9884764	0.0	58.177867	99.6445088638736	98.0957883630609	3.2939181290836608	58.385422	183.6	98.0	95.0	91.0	57.99999999999999	30.0	35										
+220514_LUL_HighSR.mutect2.filtered															581614	483273	61666	2.2	37374	2513	614			
+220514_LUL_HighSR.mutect2.filtered_snpEff																						5281.0	2.207456	0.584721
+220514_LUL_HighSR.recal	0.7210603	0.0	60.029844	99.84376231833727	98.41347300519028	2.822735030964454	60.12378	184.8	94.0	89.0	82.0	49.0	25.0	29										
+220578_LUL_LowSR.mutect2.filtered															806970	661549	92802	2.12	53680	3177	947			
+220578_LUL_LowSR.mutect2.filtered_snpEff																						3809.0	2.133401	0.810673
+220578_LUL_LowSR.recal	0.785345	0.0	63.956506	99.78671686356273	98.73999125585947	2.8114259099474603	64.093206	191.6	98.0	96.0	92.0	62.0	34.0	37										
+220597_MCC_LowSR.mutect2.filtered															526322	440925	52829	2.16	33153	2036	526			
+220597_MCC_LowSR.mutect2.filtered_snpEff																						5840.0	2.170297	0.528744
+220597_MCC_LowSR.recal	0.6704681	0.0	58.122276	99.84678962366552	98.64176577458234	2.823510943600764	58.211462	192.0	98.0	95.0	91.0	59.0	31.0	35										
+220713_RB6_LowSR.mutect2.filtered															761931	624738	87338	2.16	50832	3135	879			
+220713_RB6_LowSR.mutect2.filtered_snpEff																						4033.0	2.16807	0.765679
+220713_RB6_LowSR.recal	0.740461	0.0	62.268505999999995	99.78920367090132	98.61433268563613	2.9016053722911694	62.400043	189.5	95.0	91.0	86.0	53.0	27.0	32										
+220742_LUL_HighSR.mutect2.filtered															773819	634470	88377	2.17	51975	2990	877			
+220742_LUL_HighSR.mutect2.filtered_snpEff																						3973.0	2.17833	0.777283
+220742_LUL_HighSR.recal	0.8253155999999999	0.0	50.084514	99.7112476792298	98.10588599106188	2.9682685012148124	50.229552999999996	187.4	94.0	87.0	79.0	40.0	20.0	24										
+220754_RB6_LowSR.mutect2.filtered															1037949	835942	132391	2.07	71181	4090	1354			
+220754_RB6_LowSR.mutect2.filtered_snpEff																						2962.0	2.081476	1.042455
+220754_RB6_LowSR.recal	0.9073851	0.0	63.725401	99.72932481301007	98.36694708180138	3.1379632634691492	63.898357999999995	180.4	98.0	96.0	93.0	67.0	39.0	41										
+220884_LB6_HighSR.mutect2.filtered															990649	801427	122586	2.08	68066	3593	1187			
+220884_LB6_HighSR.mutect2.filtered_snpEff																						3105.0	2.089771	0.994589
+220884_LB6_HighSR.recal	0.9559691	0.0	53.670086	99.68734961945015	98.58530374187113	3.301198779785704	53.838412	185.6	98.0	96.0	90.0	54.0	27.0	32										
+220884_LUL_HighSR.mutect2.filtered															330396	278242	32646	2.21	19923	1775	316			
+220884_LUL_HighSR.mutect2.filtered_snpEff																						9282.0	2.213932	0.332701
+220884_LUL_HighSR.recal	0.6231981999999999	0.0	65.73707	99.90715545845052	98.73195846206033	2.6633738694212727	65.79816	187.8	98.0	96.0	93.0	64.0	36.0	39										

@@ -1,0 +1,11 @@
+Sample	0
+108159_LUL_LowSR.mutect2.filtered	(0, 298224)
+217788_LB89_LowSR.mutect2.filtered	(0, 273109)
+220514_LUL_HighSR.mutect2.filtered	(0, 150800)
+220578_LUL_LowSR.mutect2.filtered	(0, 211318)
+220597_MCC_LowSR.mutect2.filtered	(0, 139204)
+220713_RB6_LowSR.mutect2.filtered	(0, 197391)
+220742_LUL_HighSR.mutect2.filtered	(0, 199772)
+220754_RB6_LowSR.mutect2.filtered	(0, 271564)
+220884_LB6_HighSR.mutect2.filtered	(0, 259575)
+220884_LUL_HighSR.mutect2.filtered	(0, 86637)
